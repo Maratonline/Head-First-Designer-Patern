@@ -1,5 +1,6 @@
 package main;
 
+import main.algorithm.sorts.MergenSort;
 import main.chapters.one.ChapterOneRunner;
 import main.chapters.three.ChapterRunnerThree;
 import main.chapters.two.ChapterTwoRunner;
@@ -12,7 +13,7 @@ public class Main {
 //        new ChapterOneRunner().run();
      //   new ChapterTwoRunner().run();
 //        new ChapterRunnerThree().run();
-        new ClosableRunner().run();
-
+//        new ClosableRunner().run();
+            new MergenSort().run();
     }
 }
