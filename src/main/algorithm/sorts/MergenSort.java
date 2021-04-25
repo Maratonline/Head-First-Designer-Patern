@@ -3,6 +3,7 @@ package main.algorithm.sorts;
 import com.sun.scenario.effect.impl.sw.java.JSWColorAdjustPeer;
 import main.ChapterRunner;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MergenSort implements ChapterRunner {
@@ -20,6 +21,8 @@ String[] strings ={"der","ter","ar", "bar"};
             for(int j=i; j>0 && ((Comparable)array[j]).compareTo((Comparable)array[j-1])>0; j--)
                 swap(array,  j, j-1);
         }
+        ArrayList arrayList = new ArrayList();
+        arrayList.iterator();
     }
 
     private void swap(Object[] array, int a,int b){
